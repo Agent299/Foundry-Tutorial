@@ -45,7 +45,7 @@ load_dotenv()
 import os
 
 endpoint = os.getenv("PROJECT_ENDPOINT")
-key = os.getenv("OPENAI_API_KEY")
+key = os.getenv("API_KEY")
 
 def is_absolute_url(value: str) -> bool:
     parsed_url = urlparse(value)

@@ -7,7 +7,7 @@ load_dotenv()
 
 endpoint = os.getenv("LLM_ENDPOINT")
 deployment_name = "gpt-5.6-luna"
-api_key = os.getenv("OPENAI_API_KEY")
+api_key = os.getenv("API_KEY")
 
 client = OpenAI(
     base_url=endpoint,
