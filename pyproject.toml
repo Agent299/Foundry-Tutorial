@@ -7,7 +7,15 @@ authors = [
     { name = "Agent299", email = "meghallium@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "azure-identity>=1.26.0",
+    "ipykernel>=7.4.0",
+    "langchain>=1.4.7",
+    "langchain-azure-ai>=1.2.12",
+    "langchain-openai>=1.7.2",
+    "openai>=3.37.0",
+    "python-dotenv>=1.2.4",
+]
 
 [project.scripts]
 foundry-tutorial = "foundry_tutorial:main"
