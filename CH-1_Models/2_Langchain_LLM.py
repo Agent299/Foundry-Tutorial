@@ -9,7 +9,7 @@ api_key = os.getenv("OPENAI_API_KEY")
 
 llm = init_chat_model(
     model="azure_ai:gpt-5.6-luna",
-    base_url=os.getenv("ENDPOINT"),
+    base_url=os.getenv("LLM_ENDPOINT"),
     api_key=api_key
 )
 
